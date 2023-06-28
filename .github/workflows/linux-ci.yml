@@ -45,7 +45,6 @@ jobs:
       - name: Build HybrIK
         shell: bash
         run: |
-          conda remove h5py
           conda install -c anaconda h5py
 
           git clone https://github.com/Shimingyi/MotioNet.git
